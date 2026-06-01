@@ -2,13 +2,13 @@
   "name": "TALKSY",
   "short_name": "TALKSY",
   "description": "TALKSY — Connect with anyone",
-  "start_url": "/",
+  "start_url": "/TALKSY/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#007AFF",
   "lang": "en",
-  "scope": "/",
+  "scope": "/TALKSY/",
   "icons": [
     {
       "src": "icons/icon-192.png",
