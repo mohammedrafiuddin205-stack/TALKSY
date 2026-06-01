@@ -1,0 +1,43 @@
+{
+  "name": "TALKSY",
+  "short_name": "TALKSY",
+  "description": "TALKSY — Connect with anyone",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#007AFF",
+  "lang": "en",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["communication", "social"],
+  "shortcuts": [
+    {
+      "name": "Chats",
+      "short_name": "Chats",
+      "description": "Open your conversations",
+      "url": "/?tab=chats",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Calls",
+      "short_name": "Calls",
+      "description": "View recent calls",
+      "url": "/?tab=calls",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
