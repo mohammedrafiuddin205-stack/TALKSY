@@ -10,7 +10,7 @@ const App = (() => {
   function boot() {
     // Register service worker
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').catch(err => {
+      navigator.serviceWorker.register('/TALKSY/sw.js').catch(err => {
         console.warn('SW registration failed:', err);
       });
     }
